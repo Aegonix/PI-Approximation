@@ -14,6 +14,6 @@ If each of the points in the square and circle were to be filled then,
 
 $$\frac{\pi r^2}{4r^2} = \frac {number \ of \ points \ in \ circle}{number \ of \ points \ in \ square}$$
 
-Throught this we get $\pi$ as,
+Through this we get $\pi$ as,
 
 $$\pi = 4 \cdot \frac{number \ of \ points \ in \ circle}{number \ of \ points \ in \ square}
