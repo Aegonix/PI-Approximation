@@ -1,4 +1,4 @@
-from math import pi
+from math import pi, dist
 import pygame
 from random import randint
 pygame.init()
@@ -48,8 +48,8 @@ def draw():
             y = randint(center[1] - radius, center[1] + radius)
             points += 1
 
-            dist = (x - center[0]) ** 2 + (y - center[1]) ** 2
-            in_circle = dist <= radius ** 2
+            d = dist(center, (x, y))
+            in_circle = d <= radius + 0.5
             if in_circle:
                 circle_points += 1
             
